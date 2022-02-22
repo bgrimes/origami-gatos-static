@@ -8,7 +8,7 @@ params:
     showMenuItems: 2
     showLanguageSelector: false
     fullWidthTheme: false
-    centerTheme: false
+    centerTheme: true
     showLastUpdated: false
     twitter:
         creator: ''
@@ -16,8 +16,8 @@ params:
 languages:
     en:
         languageName: English
-        title: Terminal
-        subtitle: 'A simple, retro theme for Hugo'
+        title: Origami Gatos
+        subtitle: ''
         owner: ''
         keywords: ''
         copyright: ''
@@ -28,13 +28,18 @@ languages:
         missingBackButtonLabel: Back to home page
         params:
             logo:
-                logoText: Terminal
+                logoText: Origami\ Gatos
                 logoHomeLink: /
         menu:
             main:
-                - identifier: about
+                - identifier: 01-home
+                  name: Home
+                  url: /
+                  weight: 1
+                - identifier: 02-about
                   name: About
                   url: /about
-                - identifier: showcase
-                  name: Showcase
-                  url: /showcase
+                  weight: 2
+#                - identifier: showcase
+#                  name: Showcase
+#                  url: /showcase
